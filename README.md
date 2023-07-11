@@ -1,13 +1,13 @@
-# CSOC-WEEK-3-Android-Flutter
+# CSOC-WEEK-3-Flutter
 
 ## Assignment
-This week, you'll be building todo application either by using Native Android or Flutter.
+This week, you'll be building todo application either by using Flutter.
 
 Having knowledge of the previous week is necessary since you would have gone through the basics of respective tracks.
 
-Enable your TODO maker App to store and retrieve data to/from provided REST APIs. This means you will have the ability to have the same data on different devices on which your app is installed. We have created a backend server containing the API endpoints required for this application to function completely -  [https://todo-app-csoc.herokuapp.com/](https://todo-app-csoc.herokuapp.com/)
+Enable your TODO maker App to store and retrieve data to/from provided REST APIs. This means you will have the ability to have the same data on different devices on which your app is installed. We have created a backend server containing the API endpoints required for this application to function completely -  [https://todo-api-s7vj.onrender.com/](https://todo-api-s7vj.onrender.com/)
 
-*The complete description of the API is mentioned at the end of this readme.*
+*The complete description of the API can be found in ```API_Documentation.md```.*
 
 ## Tasks
 As mentioned above you task is to build todo application and connect it to the APIs. 
@@ -39,7 +39,7 @@ Here is the breakdown of the points related to each task.
 Judging would be done on the basis of your implementation and authenticity.
 
 ## Deadline
-You'll have a week to complete this task. Hence, the deadline of this task is **26th June, 2022 EOD** 
+You'll have a week to complete this task. Hence, the deadline of this task is **18th July, 2023 EOD** 
 
 ## Submission Guidelines :
 
@@ -208,14 +208,13 @@ In order to obtain a valid token it's necessary to send a request  `POST /auth/l
 	Response Code: `204`
 
 All the requests must be prefixed with the base URL of the API.
-Example: for login the `POST` request must be sent to `https://todo-app-csoc.herokuapp.com/auth/login/` with the required details. **Make sure to append a slash at the end, otherwise you may encounter an error while making the `POST` request.**
+Example: for login the `POST` request must be sent to `https://todo-api-s7vj.onrender.com/auth/login/` with the required details. **Make sure to append a slash at the end, otherwise you may encounter an error while making the `POST` request.**
 
 ### Documentation
-Swagger generated docs: [https://todo-app-csoc.herokuapp.com/](https://todo-app-csoc.herokuapp.com/)\
-ReDoc generated docs: [https://todo-app-csoc.herokuapp.com/redoc/](https://todo-app-csoc.herokuapp.com/redoc/)
+Swagger generated docs: [https://todo-api-s7vj.onrender.com/](https://todo-api-s7vj.onrender.com/)\
 
 ### Testing the API
 
-The API can be tested by going to the deployed URL: [https://todo-app-csoc.herokuapp.com/](https://todo-app-csoc.herokuapp.com/), clicking the "Try it out" button after selecting the endpoint and finally executing it along with the Response Body (if required).
+The API can be tested by going to the deployed URL: [https://todo-api-s7vj.onrender.com/](https://todo-api-s7vj.onrender.com/), clicking the "Try it out" button after selecting the endpoint and finally executing it along with the Response Body (if required).
 
 For testing the endpoints which require **Token** in the Authorization header, you can click on the "Authorize" button, write the Authorization token as  `Token <token>` (which you have obtained from the `auth/login/` endpoint) and finally click on "Authorize". Thereafter, all the requests made to any endpoint will have the Token in the Authorization Header.
