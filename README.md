@@ -1,7 +1,7 @@
 # CSOC-WEEK-3-Flutter
 
 ## Assignment
-This week, you'll be building todo application either by using Flutter.
+This week, you'll be building todo application using Flutter.
 
 Having knowledge of the previous week is necessary since you would have gone through the basics of respective tracks.
 
