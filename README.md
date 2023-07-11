@@ -46,7 +46,7 @@ You'll have a week to complete this task. Hence, the deadline of this task is **
 - Create your own repo and implement the above tasks
 - Then, Fork this repository and clone it
 - Make a new entry into submissions as explained in comments, i.e, add your github repo link and .apk file of your application
-- Commit and Push the changes in respective readme (either  Android.md or Flutter.md)
+- Commit and Push the changes in ```Flutter.md```.
 - Make a Pull request and add your repo and apk link in PR template too.
 
 
@@ -211,7 +211,7 @@ All the requests must be prefixed with the base URL of the API.
 Example: for login the `POST` request must be sent to `https://todo-api-s7vj.onrender.com/auth/login/` with the required details. **Make sure to append a slash at the end, otherwise you may encounter an error while making the `POST` request.**
 
 ### Documentation
-Swagger generated docs: [https://todo-api-s7vj.onrender.com/](https://todo-api-s7vj.onrender.com/)\
+Swagger generated docs: [https://todo-api-s7vj.onrender.com/](https://todo-api-s7vj.onrender.com/)
 
 ### Testing the API
 
